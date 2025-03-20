@@ -3,7 +3,7 @@ import dht
 import time
 
 # DHT11 を GPIO4 (Pin 6) に接続
-dht11 = dht.DHT11(machine.Pin(4))
+dht11 = dht.DHT11(machine.Pin(0))
 
 while True:
     try:
